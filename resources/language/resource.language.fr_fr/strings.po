@@ -115,7 +115,7 @@ msgstr "licence EULA Widevine CDM"
 
 msgctxt "#30027"
 msgid "I accept"
-msgstr "J'accèpte"
+msgstr "J'accepte"
 
 msgctxt "#30028"
 msgid "Cancel"
@@ -227,7 +227,7 @@ msgstr "désactivé"
 
 msgctxt "#30055"
 msgid "There is not enough free disk space in the current temporary directory. Would you like to specify a different one to temporarily use for the Chrome OS Recovery Image (e.g. on a USB)?"
-msgstr ""
+msgstr "Il n'y a pas assez d'espace disque dans dans l'actuel répertoire temporaire. Souhaitez vous en spécifier un de différent pour utiliser l'image de récupération de Chrome OS (e.g. une clef USB)?"
 
 
 ### INFORMATION DIALOG
@@ -279,7 +279,7 @@ msgstr "Veuillez signaler les problèmes à :\n - [COLOR yellow]{url}[/COLOR]"
 ### SETTINGS
 msgctxt "#30900"
 msgid "Expert"
-msgstr ""
+msgstr "Expert"
 
 msgctxt "#30901"
 msgid "InputStream Helper information"
@@ -295,11 +295,11 @@ msgstr "[I]Lorsque qu'il est déactivé, la lecture de contenu DRM peut échouer
 
 msgctxt "#30905"
 msgid "Update frequency in days"
-msgstr ""
+msgstr "Fréquence des mises à jour"
 
 msgctxt "#30907"
 msgid "Temporary download directory"
-msgstr ""
+msgstr "Répertoire temporaire de téléchargement"
 
 msgctxt "#30909"
 msgid "(Re)install Widevine CDM library..."
