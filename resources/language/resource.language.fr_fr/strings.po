@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: script.module.inputstreamhelper\n"
 "Report-Msgid-Bugs-To: https://github.com/emilsvennesson/script.module.inputstreamhelper\n"
-"POT-Creation-Date: 2019-09-02 16:15+0000\n"
+"POT-Creation-Date: 2020-03-18 16:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Ducouet Bruno <bruno@ducouet.fr>\n"
 "Language-Team: Français\n"
@@ -35,7 +35,7 @@ msgstr "En raison des droits de distribution, [B]Widevine CDM[/B] doit être ext
 
 msgctxt "#30007"
 msgid "[B]Widevine CDM[/B] is unfortunately not available on this system architecture."
-msgstr "[B]Widevine CDM[/B] n'est malheureusement pas disponible sur cette architecture système"
+msgstr "[B]Widevine CDM[/B] n'est malheureusement pas disponible sur cette architecture système."
 
 msgctxt "#30008"
 msgid "[B]{addon}[/B] is missing on your Kodi install. This add-on is required to play this content."
@@ -43,7 +43,7 @@ msgstr "[B]{addon}[/B] est absent de votre installation Kodi. Cet add-on est né
 
 msgctxt "#30009"
 msgid "[B]{addon}[/B] is not enabled. This add-on is required to play this content.[CR][CR]Would you like to enable [B]{addon}[/B]?"
-msgstr "[B]{addon}[/B] n'est pas activé. Cet add-on est nécessaire pour lire ce contenu.[CR][CR]Voulez vous activer [B]{addon}[/B]?"
+msgstr "[B]{addon}[/B] n'est pas activé. Cet add-on est nécessaire pour lire ce contenu.[CR][CR]Voulez vous activer [B]{addon}[/B] ?"
 
 msgctxt "#30010"
 msgid "[B]Kodi {version}[/B] or higher is required for [B]Widevine CDM[/B] content playback."
@@ -85,7 +85,7 @@ msgctxt "#30019"
 msgid "This operating system ([B]{os}[/B]) is not supported by [B]Widevine CDM[/B] for ARM devices."
 msgstr "Ce système d'exploitation ([B]{os}[/B]) n'est pas supporté par [B]Widevine CDM[/B] pour les marchine ARM"
 
-msgctxt "#30020" 
+msgctxt "#30020"
 msgid "[B]'{command1}'[/B] or [B]'{command2}'[/B] command needs to exist on system to extract the [B]Widevine CDM[/B]."
 msgstr "la commande [B]'{command1}'[/B] ou [B]'{command2}'[/B] est nécessaire sur le système pour extraire [B]Widevine CDM[/B]."
 
@@ -98,8 +98,8 @@ msgid "Downloading the ChromeOS recovery image..."
 msgstr "Téléchargement de l'image de récupération de ChromeOS"
 
 msgctxt "#30023"
-msgid "Téléchargement terminé !"
-msgstr ""
+msgid "Download completed!"
+msgstr "Téléchargement terminé !"
 
 msgctxt "#30024"
 msgid "The installation now needs to unzip, mount and extract [B]Widevine CDM[/B] from the recovery image.[CR][CR]This process may take up to ten minutes to complete."
@@ -111,7 +111,7 @@ msgstr "Aquisition de la licence EULA"
 
 msgctxt "#30026"
 msgid "Widevine CDM EULA"
-msgstr "licence EULA Widevine CDM"
+msgstr "Licence EULA Widevine CDM"
 
 msgctxt "#30027"
 msgid "I accept"
@@ -203,7 +203,7 @@ msgstr "Extraction de Widevine CDM depuis l'image..."
 
 msgctxt "#30049"
 msgid "Installing Widevine CDM..."
-msgstr "installation de Widevine CDM..."
+msgstr "Installation de Widevine CDM..."
 
 msgctxt "#30050"
 msgid "Finishing..."
@@ -221,9 +221,65 @@ msgctxt "#30053"
 msgid "[B]Widevine CDM[/B] not found."
 msgstr "[B]Widevine CDM[/B] non trouvé"
 
+msgctxt "#30054"
+msgid "disabled"
+msgstr "Désactivé"
+
+
+### INFORMATION DIALOG
+msgctxt "#30800"
+msgid "[B]Kodi information[/B]"
+msgstr "[B]Informations sur Kodi[/B]"
+
+msgctxt "#30801"
+msgid "Kodi version: [B]{version}[/B]"
+msgstr "Version de Kodi : [B]{version}[/B]"
+
+msgctxt "#30802"
+msgid "Kodi platform/architecture: [B]{platform}[/B]/[B]{arch}[/B]"
+msgstr "Platform/architecture de Kodi: [B]{platform}[/B]/[B]{arch}[/B]"
+
+msgctxt "#30810"
+msgid "[B]InputStream information[/B]"
+msgstr "[B]Informations sur InputStream[/B]"
+
+msgctxt "#30811"
+msgid "InputStream Helper version: [B]{version}[/B] {state}"
+msgstr "Version de InputStream Helper : [B]{version}[/B] {state}"
+
+msgctxt "#30812"
+msgid "InputStream Adaptive version: [B]{version}[/B] {state}"
+msgstr "Version de InputStream Adaptive : [B]{version}[/B] {state}"
+
+msgctxt "#30820"
+msgid "[B]Widevine information[/B]"
+msgstr "Informations sur [B]Widevine information[/B]"
+
+msgctxt "#30821"
+msgid "Widevine version: [B]{version}[/B] [COLOR gray](last updated on [B]{date}[/B])[/COLOR]"
+msgstr "Version de Widevine : [B]{version}[/B] [COLOR gray](derniére mise à jour le [B]{date}[/B])[/COLOR]"
+
+msgctxt "#30822"
+msgid "Widevine CDM path: [B]{path}[/B]"
+msgstr "Chemin de Widevine CDM : [B]{path}[/B]"
+
+msgctxt "#30823"
+msgid "ChromeOS version: [B]{version}[/B]"
+msgstr "Version de ChromeOS : [B]{version}[/B]"
+
+msgctxt "#30830"
+msgid "Please report issues to:\n - [B]{url}[/B]"
+msgstr "Merci de reporter les erreurs à :\n - [B]{url}[/B]"
+
+
+### SETTINGS
 msgctxt "#30900"
 msgid "Troubleshooting"
 msgstr "Dépannage"
+
+msgctxt "#30901"
+msgid "InputStream Helper information"
+msgstr "Information sur InputStream Helper"
 
 msgctxt "#30903"
 msgid "Disable InputStream Helper"
@@ -239,4 +295,5 @@ msgstr "(Re)installer la bibliothèque Widevine CDM..."
 
 msgctxt "#30907"
 msgid "Remove Widevine CDM library..."
-msgstr "désinstaller la bibliothèque Widevine CDM..."
+msgstr "Désinstaller la bibliothèque Widevine CDM..."
+
